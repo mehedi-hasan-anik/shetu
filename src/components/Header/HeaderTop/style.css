@@ -1,0 +1,72 @@
+.topBar {
+  border-bottom: 1px solid #f3f3f3;
+  padding: 22px 0;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.topBar .list-inline {
+  display: flex;
+  align-items: center;
+}
+.topBar ul {
+  margin: 0;
+}
+
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.topBar ul li:first-child {
+  padding-left: 0;
+}
+.topBar ul li {
+  line-height: 13px;
+  font-size: 13px;
+  border-right: 1px solid #e4e4e4;
+  padding: 0 15px;
+}
+.list-inline li {
+  display: inline-block;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.list-inline {
+  list-style: none;
+}
+.list-inline li {
+  display: inline-block;
+}
+.topBar .social_topBar li {
+  border-right: 0;
+  padding: 0 8px;
+}
+.topBar a {
+  text-decoration: none;
+  color: #6f6f6f;
+}
+a {
+  background-color: transparent;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+}

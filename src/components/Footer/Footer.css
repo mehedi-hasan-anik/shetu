@@ -1,0 +1,282 @@
+.big-footer {
+  padding: 50px 0;
+  background-color: #232530;
+  /* border-top: 2px solid /2a66bf; */
+  position: relative;
+}
+.page-scroll {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  right: 0;
+  background-color: #2a66bf;
+  line-height: 36px;
+  cursor: pointer;
+  top: -50px;
+  text-align: center;
+  font-size: 17px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.footer-box {
+  margin-bottom: 50px;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+
+Link {
+  background-color: transparent;
+  color: #337ab7;
+  text-decoration: none;
+}
+.carousel-inner .item a img,
+.carousel-inner .item img,
+.img-responsive,
+.thumbnail a img,
+.thumbnail img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+.footer-box p,
+.contact_info,
+.contact_info a {
+  color: #b3c0cc;
+}
+p {
+  margin: 0 0 10px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheet p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.footer-box p,
+.contact_info,
+.contact_info a {
+  color: #b3c0cc;
+}
+.footer-box {
+  margin-bottom: 50px;
+}
+.footer-title {
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.h4 {
+  font-size: 18px;
+}
+.h4,
+.h5,
+.h6,
+h4,
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+.footer-category {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.footer-category li {
+  margin-bottom: 5px;
+}
+.footer-category li Link {
+  font-size: 18px;
+  color: #b3c0cc;
+}
+
+.social-link li span {
+  font-size: 14px;
+  color: #b3c0cc;
+}
+.social-link li .icon {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 8px;
+  color: #fff;
+}
+.facebook {
+  background: #0671ad;
+}
+.twitter {
+  background: #1dadeb;
+}
+.linkedin {
+  background: #bb0528;
+}
+.youtube {
+  background: #1178b3;
+}
+.instagram {
+  background: #ea4335;
+}
+.icon {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.footer-title2 {
+  margin-bottom: 30px;
+}
+.footer-title2 h4 {
+  position: absolute;
+  margin-top: -8px;
+  background: #232530;
+  padding-right: 10px;
+  font-weight: 800;
+  margin-bottom: 0;
+  color: #b4b6bf;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.app-text p {
+  color: #b3c0cc;
+  margin: 0;
+}
+
+.pull-right {
+  float: right !important;
+}
+.apps a {
+  display: inline-block;
+}
+.apps a img {
+  height: 40px;
+}
+.carousel-inner.item a img,
+.carousel-inner .item img,
+.img-responsive,
+.thumbnail a img,
+.thumbnail img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+}
+.footer-title2 hr {
+  margin: 0;
+  border-top: 1px solid #404040;
+}
+.apps a img {
+  height: 40px;
+  margin-right: 5px;
+}
+.footer-category li span {
+  color: #b3c0cc;
+}
+.social-link li .icon {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 8px;
+  color: #fff;
+  padding: 3px;
+}

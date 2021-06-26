@@ -1,0 +1,48 @@
+.overview_area {
+  margin: 40px 0;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.overview_area .overview_inner .single_overview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  transition: all 300ms linear 0s;
+  border: 1px solid / f2f3f5;
+}
+
+.overview_area .overview_inner .single_overview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  transition: all 300ms linear 0s;
+  border: 1px solid / f2f3f5;
+}
+.overview_area .overview_inner .single_overview .overview_details {
+  padding-left: 10px;
+}
+.overview_area .overview_inner .single_overview .overview_details h4 {
+  font-size: 18px;
+}
+.overview_area .overview_inner .single_overview .overview_details h6 {
+  font-size: 12px;
+}
+.overview_area .overview_inner .single_overview .overview_icon {
+  color: #0e7894;
+}
+.overview_area .overview_inner .single_overview .overview_icon {
+  font-size: 30px;
+  line-height: 40px;
+  width: 50px;
+  text-align: center;
+}

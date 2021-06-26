@@ -1,0 +1,36 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.my-40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.advertise-left {
+  margin-bottom: 10px;
+}
+.advertise-right {
+  margin-bottom: 10px;
+}
+a {
+  color: #09c;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+}

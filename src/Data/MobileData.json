@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/jLhFwP4/26.png",
+      "title": "Gallexy A7 Pro Handset",
+      "subTitle": "Phone,Handset",
+      "price": 375,
+      "deletePrice": 399
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/frTKnMJ/25.png",
+      "title": "Gallexy A7 Pro Handset",
+      "subTitle": "Phone,Handset",
+      "price": 375,
+      "deletePrice": 399
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/fxd1bP1/24.png",
+      "title": "Gallexy A7 Pro Handset",
+      "subTitle": "Phone,Handset",
+      "price": 375,
+      "deletePrice": 399
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/QKtP412/23.png",
+      "title": "Gallexy A7 Pro Handset",
+      "subTitle": "Phone,Handset",
+      "price": 375,
+      "deletePrice": 399
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/ypxrdzQ/22.png",
+      "title": "Gallexy A7 Pro Handset",
+      "subTitle": "Phone,Handset",
+      "price": 375,
+      "deletePrice": 399
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/8cQM1kK/21.png",
+      "title": "Gallexy A7 Pro Handset",
+      "subTitle": "Phone,Handset",
+      "price": 375,
+      "deletePrice": 399
+    }
+  ]
