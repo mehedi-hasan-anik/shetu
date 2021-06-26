@@ -26,103 +26,99 @@ const ProductArea = () => {
 
   return (
     <div className="myslider">
-    <div className="container">
-      <div className="top-text-area">
-        <h4>TOP FEATURES</h4>
-      </div>
+      <div className="container">
+        <div className="top-text-area">
+          <h4>TOP FEATURES</h4>
+        </div>
 
-      <Swiper
-        ref={swiperRef}
-        slidesPerView={5}
-        spaceBetween={30}
-        pagination={{
-          type: "fraction",
-        }}
-        navigation={true}
-        loop={true}
-        autoplay={{
-          delay: 500,
-          disableOnInteraction: false,
-        }}
-        className="mySwiper"
-      >
-        {mobileItem.map((product) => (
-          <div className="full-product-area" key={product.id}>
-            <SwiperSlide>
-              <div className="product-area-slide">
-                <div className="single-slide ">
-                  <div className="photo-area">
-                    <img src={product.image} className="img-fluid" alt="" />
-                  </div>
-                  <div className="text-area">
-                    <p>{product.subTitle}</p>
-                    <Link to="/">{product.title}</Link>
-                    <div className="icon-area">
-                      <Star />
+        <Swiper
+          ref={swiperRef}
+          slidesPerView={5}
+          spaceBetween={30}
+          pagination={{
+            type: "fraction",
+          }}
+          navigation={true}
+          loop={true}
+          className="mySwiper"
+        >
+          {mobileItem.map((product) => (
+            <div className="full-product-area" key={product.id}>
+              <SwiperSlide>
+                <div className="product-area-slide">
+                  <div className="single-slide ">
+                    <div className="photo-area">
+                      <img src={product.image} className="img-fluid" alt="" />
                     </div>
-                    <div className="price-area">
-                      <p className="product_cost">
-                        $375.00 <del className="ml-5">$399.00</del>
-                      </p>
-
-                      <div className="hover_content">
-                        <ul className="nav">
-                          <li>
-                            {/* <a href="/">
-                              <FontAwesomeIcon icon={faHeart} />
-                            </a> */}
-                            <Link to="/">
-                              <FontAwesomeIcon icon={faHeart} />
-                            </Link>
-                          </li>
-                          <li>
-                            {/* <a href="/">
-                              <FontAwesomeIcon icon={faShoppingBag} />
-                            </a> */}
-                            <Link to="/">
-                              <FontAwesomeIcon icon={faShoppingBag} />
-                            </Link>
-                          </li>
-                          <li>
-                            {/* <a href="/">
-                              <FontAwesomeIcon icon={faSyncAlt} />
-                            </a> */}
-                            <Link to="/">
-                              <FontAwesomeIcon icon={faSyncAlt} />
-                            </Link>
-                          </li>
-                        </ul>
+                    <div className="text-area">
+                      <p>{product.subTitle}</p>
+                      <Link to="/">{product.title}</Link>
+                      <div className="icon-area">
+                        <Star />
                       </div>
+                      <div className="price-area">
+                        <p className="product_cost">
+                          $375.00 <del className="ml-5">$399.00</del>
+                        </p>
 
-                      <div className="hover_content-2">
-                        <ul className="nav-2">
-                          <li>
-                            {/* <a href="/">
+                        <div className="hover_content">
+                          <ul className="nav">
+                            <li>
+                              {/* <a href="/">
                               <FontAwesomeIcon icon={faHeart} />
                             </a> */}
-                            <Link to="/">
-                              <FontAwesomeIcon icon={faHeart} />
-                            </Link>
-                          </li>
-                          <li>
-                            {/* <a href="/">
+                              <Link to="/">
+                                <FontAwesomeIcon icon={faHeart} />
+                              </Link>
+                            </li>
+                            <li>
+                              {/* <a href="/">
+                              <FontAwesomeIcon icon={faShoppingBag} />
+                            </a> */}
+                              <Link to="/">
+                                <FontAwesomeIcon icon={faShoppingBag} />
+                              </Link>
+                            </li>
+                            <li>
+                              {/* <a href="/">
                               <FontAwesomeIcon icon={faSyncAlt} />
                             </a> */}
-                            <Link to="/">
+                              <Link to="/">
+                                <FontAwesomeIcon icon={faSyncAlt} />
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div className="hover_content-2">
+                          <ul className="nav-2">
+                            <li>
+                              {/* <a href="/">
+                              <FontAwesomeIcon icon={faHeart} />
+                            </a> */}
+                              <Link to="/">
+                                <FontAwesomeIcon icon={faHeart} />
+                              </Link>
+                            </li>
+                            <li>
+                              {/* <a href="/">
                               <FontAwesomeIcon icon={faSyncAlt} />
-                            </Link>
-                          </li>
-                        </ul>
+                            </a> */}
+                              <Link to="/">
+                                <FontAwesomeIcon icon={faSyncAlt} />
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </SwiperSlide>
-          </div>
-        ))}
-      </Swiper>
-    </div>
+              </SwiperSlide>
+            </div>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import Carousel from "../Carousel/index";
 import OverviewArea from "../OverviewArea";
 import AdvertiseArea from "../AdvertiseArea";
 import AdvertiseArea2 from "../AdvertiseArea2";
@@ -17,8 +16,7 @@ const Home = () => {
     <div className="home">
       <div className="">
         <Header />
-        {/* <Carousel /> */}
-        <SlickList/>
+        <SlickList />
         <OverviewArea />
         <AdvertiseArea />
         <ProductArea />

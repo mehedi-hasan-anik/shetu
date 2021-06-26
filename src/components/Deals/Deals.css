@@ -42,3 +42,10 @@
   top: 99%;
   left: 0%;
 }
+.deals-area-image img {
+  width: 70px;
+  height: 80px;
+}
+.inner-deals-area {
+  margin-top: 20px;
+}

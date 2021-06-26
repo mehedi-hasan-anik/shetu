@@ -33,10 +33,6 @@ const Sellers = () => {
         }}
         navigation={true}
         loop={true}
-        autoplay={{
-          delay: 500,
-          disableOnInteraction: false,
-        }}
         className="mySwiper"
       >
         {mobileItem.map((product) => (
