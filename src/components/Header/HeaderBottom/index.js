@@ -8,37 +8,35 @@ import navigationData from "../../../Data/navigaationData.json";
 const HeaderBottom = () => {
   return (
     <div className="full-nav-area">
-      <nav className="navbar navbar-expand-lg   container">
-        <div className="container-fluid nav-full-area">
-          <Link to="/" className="navbar-brand">
-            <h3>All Departments</h3>
-          </Link>
+      <nav class="navbar navbar-expand-lg   container">
+        <div class="container-fluid nav-full-area">
+          <a class="navbar-brand" href="/">
+            <h3>ALL Deparment</h3>
+          </a>
           <button
-            className="navbar-toggler"
+            class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="/navbarSupportedContent"
+            data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon">
+            <span class="navbar-toggler-icon">
               <FontAwesomeIcon icon={faBars} className="nav-bar-icon" />
             </span>
           </button>
           <div
-            className="collapse navbar-collapse navigation-area"
+            class="collapse navbar-collapse navigation-area"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              {navigationData.map((event) => (
-                <Link
-                  className="nav-link ms-3"
-                  key={event.id}
-                  to={`/${event.id}`}
-                >
-                  {event.name}
-                </Link>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              {navigationData.map((navigationitem) => (
+                <li class="nav-item" key={navigationitem.id}>
+                  <Link className="nav-link ms-3" to="/">
+                    {navigationitem.name}
+                  </Link>
+                </li>
               ))}
             </ul>
           </div>
