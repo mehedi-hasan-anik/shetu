@@ -58,8 +58,9 @@ const Sellers = () => {
                       <div className="icon-area">
                         <Star />
                       </div>
-                      <p>{product.subTitle}</p>
-                      <Link to="/">{product.title}</Link>
+                      <Link to="/" className="sellers-text-area-title">
+                        {product.title}
+                      </Link>
                       <div className="price-area">
                         <p className="product_cost">
                           ${product.price}{" "}
