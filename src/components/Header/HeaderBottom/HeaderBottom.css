@@ -5,14 +5,14 @@
 .full-nav-area {
   background: var(--bg_color);
 }
-
-.nav-full-area {
+.navbar-nav .nav-link:hover {
+  color: white;
+  cursor: pointer;
 }
 .nav-full-area button {
   border: 1px solid #007acc;
 }
-.nav-bar-icon {
-}
+
 .navbar {
   position: relative;
   display: flex;
