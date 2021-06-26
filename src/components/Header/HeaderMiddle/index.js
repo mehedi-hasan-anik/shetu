@@ -24,7 +24,6 @@ const HeaderMiddle = () => {
               </div>
               <div className="header-logo">
                 <a href="index.html">
-                  {" "}
                   <img
                     src={HeaderMiddlePhoto}
                     className="img-responsive"
@@ -90,9 +89,6 @@ const HeaderMiddle = () => {
                     </option>
                     <option value="virtual-reality">Virtual Reality</option>
                   </select>
-                  {/* <select id="cat_select">
-                    <option id="cat_option">All Categories</option>
-                  </select> */}
                 </div>
                 <div className="input-group-btn">
                   <input
@@ -105,13 +101,11 @@ const HeaderMiddle = () => {
                     <span>
                       <FontAwesomeIcon icon={faSearch} />
                     </span>
-                    {/* <span className="lnr lnr-magnifier"></span> */}
                     Search
                   </button>
                 </div>
               </div>
             </form>
-            {/* <!-- /.End of Product Search Area --> */}
           </div>
           <div className="col-xs-4 col-sm-2 col-md-2 col-lg-3 text-right">
             <ul className="header-nav pull-right">
@@ -123,7 +117,6 @@ const HeaderMiddle = () => {
                   title=""
                   data-original-title="Wishlist"
                 >
-                  {/* <i className="flaticon-like-1 extra-icon"></i>{" "} */}
                   <FontAwesomeIcon icon={faHeart} className="extra-icon" />
                   <span className="icon-tips">5</span>
                 </a>
@@ -136,14 +129,11 @@ const HeaderMiddle = () => {
                   data-hover="dropdown"
                   data-close-others="false"
                 >
-                  {/* {" "}
-                  <i className="flaticon-shopping-bag extra-icon"></i> */}
                   <FontAwesomeIcon
                     icon={faShoppingBag}
                     className="extra-icon"
                   />
                   <div className="nav-label">
-                    {/* <span className="label-sub">Cart</span> */}
                     <span className="icon-tips">3</span>
                     <i className="fa fa-angle-down ml-5"></i>
                   </div>

@@ -7,6 +7,7 @@ import {
   faTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 const HeaderTop = () => {
   return (
@@ -15,38 +16,38 @@ const HeaderTop = () => {
         <ul className="list-inline pull-left">
           <li>Call +120 558 7885</li>
           <li>
-            <a href="/">About Us</a>
+            <Link to="/">About Us</Link>
           </li>
           <li>
-            <a href="/">Contact Us</a>
+            <Link to="/">Contact Us</Link>
           </li>
           <li>
-            <a href="/">Login</a>
+            <Link to="/">Login</Link>
           </li>
           <li>
-            <a href="/">Register</a>
+            <Link to="/">Register</Link>
           </li>
         </ul>
         <ul className="list-inline pull-right social_topBar">
           <li>
-            <a href="/">
+            <Link to="/">
               <FontAwesomeIcon icon={faFacebookF} />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/">
+            <Link to="/">
               <FontAwesomeIcon icon={faTwitter} />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/">
+            <Link to="/">
               <FontAwesomeIcon icon={faLinkedin} />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/">
+            <Link to="/">
               <FontAwesomeIcon icon={faYoutube} />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

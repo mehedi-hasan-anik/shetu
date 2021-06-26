@@ -64,25 +64,16 @@ const ProductArea = () => {
                         <div className="hover_content">
                           <ul className="nav">
                             <li>
-                              {/* <a href="/">
-                              <FontAwesomeIcon icon={faHeart} />
-                            </a> */}
                               <Link to="/">
                                 <FontAwesomeIcon icon={faHeart} />
                               </Link>
                             </li>
                             <li>
-                              {/* <a href="/">
-                              <FontAwesomeIcon icon={faShoppingBag} />
-                            </a> */}
                               <Link to="/">
                                 <FontAwesomeIcon icon={faShoppingBag} />
                               </Link>
                             </li>
                             <li>
-                              {/* <a href="/">
-                              <FontAwesomeIcon icon={faSyncAlt} />
-                            </a> */}
                               <Link to="/">
                                 <FontAwesomeIcon icon={faSyncAlt} />
                               </Link>
@@ -93,17 +84,11 @@ const ProductArea = () => {
                         <div className="hover_content-2">
                           <ul className="nav-2">
                             <li>
-                              {/* <a href="/">
-                              <FontAwesomeIcon icon={faHeart} />
-                            </a> */}
                               <Link to="/">
                                 <FontAwesomeIcon icon={faHeart} />
                               </Link>
                             </li>
                             <li>
-                              {/* <a href="/">
-                              <FontAwesomeIcon icon={faSyncAlt} />
-                            </a> */}
                               <Link to="/">
                                 <FontAwesomeIcon icon={faSyncAlt} />
                               </Link>

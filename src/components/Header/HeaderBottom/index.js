@@ -35,9 +35,9 @@ const HeaderBottom = () => {
     <div className="full-nav-area">
       <nav className="navbar navbar-expand-lg   container">
         <div className="container-fluid nav-full-area">
-          <a className="navbar-brand" href="/">
+          <Link to="/" className="navbar-brand">
             <h3>All Departments</h3>
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -66,38 +66,6 @@ const HeaderBottom = () => {
                 </Link>
               ))}
             </ul>
-            {/* <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <Link className="nav-link ms-3" to="/">
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link ms-3" to="/">
-                  Category
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link ms-3" to="/">
-                  Cart
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link ms-3" to="/">
-                  Checkout
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link ms-3" to="/">
-                  ProductDetails
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link ms-3" to="/">
-                  lifeStyle
-                </Link>
-              </li>
-            </ul> */}
           </div>
         </div>
       </nav>
