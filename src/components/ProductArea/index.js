@@ -1,11 +1,5 @@
 import product from "../../Data/MobileData.json";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHeart,
-  faShoppingBag,
-  faSyncAlt,
-} from "@fortawesome/free-solid-svg-icons";
 import "./ProductArea.css";
 import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,6 +8,7 @@ import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/navigation/navigation.min.css";
 import SwiperCore, { Pagination, Navigation } from "swiper/core";
 import Star from "../Star";
+import HoverContent from "./HoverContent";
 SwiperCore.use([Pagination, Navigation]);
 
 const ProductArea = () => {
@@ -60,40 +55,8 @@ const ProductArea = () => {
                         <p className="product_cost">
                           $375.00 <del className="ml-5">$399.00</del>
                         </p>
-
                         <div className="hover_content">
-                          <ul className="nav">
-                            <li>
-                              <Link to="/">
-                                <FontAwesomeIcon icon={faHeart} />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/">
-                                <FontAwesomeIcon icon={faShoppingBag} />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/">
-                                <FontAwesomeIcon icon={faSyncAlt} />
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-
-                        <div className="hover_content-2">
-                          <ul className="nav-2">
-                            <li>
-                              <Link to="/">
-                                <FontAwesomeIcon icon={faHeart} />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/">
-                                <FontAwesomeIcon icon={faSyncAlt} />
-                              </Link>
-                            </li>
-                          </ul>
+                          <HoverContent />
                         </div>
                       </div>
                     </div>
