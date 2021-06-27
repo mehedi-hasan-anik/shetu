@@ -1,9 +1,10 @@
 import React from "react";
 import "./HeaderMiddle.css";
-import HeaderMiddleLogo from "./HeaderMiddleLogo";
 import HeaderMiddleForm from "./HeaderMiddleForm";
 import HeaderMiddleIcon from "./HeaderMiddleIcon";
 import HeaderMiddleMobile from "./HeaderMiddleMobile";
+import HeaderMiddlePhoto from "../../Image/logo.png";
+import { Link } from "react-router-dom";
 
 const HeaderMiddle = () => {
   return (
@@ -18,7 +19,14 @@ const HeaderMiddle = () => {
                 </button>
               </div>
               <div className="header-logo">
-                <HeaderMiddleLogo />
+                <Link to="/">
+                  {" "}
+                  <img
+                    src={HeaderMiddlePhoto}
+                    className="img-responsive"
+                    alt=""
+                  />
+                </Link>
               </div>
             </div>
           </div>

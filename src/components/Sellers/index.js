@@ -1,23 +1,18 @@
-import product from "../../Data/MobileData.json";
+import mobileItem from "../../Data/MobileData.json";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart, faSyncAlt } from "@fortawesome/free-solid-svg-icons";
 import "./Sellers.css";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/navigation/navigation.min.css";
 import SwiperCore, { Pagination, Navigation } from "swiper/core";
 import Star from "../Star";
+import HoverTop from "./HoverTop";
+import HoverBottom from "./HoverBottom";
 SwiperCore.use([Pagination, Navigation]);
 
 const Sellers = () => {
-  const [mobileItem, setMobile] = useState([]);
-  useEffect(() => {
-    setMobile(product);
-  }, []);
-
   const swiperRef = useRef(null);
   return (
     <div className="full-sellers-area">
@@ -44,14 +39,7 @@ const Sellers = () => {
                     <div className="photo-area2">
                       <img src={product.image} className="img-fluid" alt="" />
                       <div className="hover_content-3">
-                        <ul className="nav-3">
-                          <li>
-                            <Link to="/">QUICK VIEW</Link>
-                          </li>
-                          <li>
-                            <Link to="/">ADD TO CARD</Link>
-                          </li>
-                        </ul>
+                        <HoverBottom />
                       </div>
                     </div>
                     <div className="sellers-text-area">
@@ -66,20 +54,8 @@ const Sellers = () => {
                           ${product.price}{" "}
                           <del className="ml-5">${product.deletePrice}</del>
                         </p>
-
                         <div className="hover_content-2">
-                          <ul className="nav-2">
-                            <li>
-                              <Link to="/">
-                                <FontAwesomeIcon icon={faHeart} />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/">
-                                <FontAwesomeIcon icon={faSyncAlt} />
-                              </Link>
-                            </li>
-                          </ul>
+                          <HoverTop />
                         </div>
                       </div>
                     </div>
