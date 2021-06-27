@@ -68,7 +68,14 @@ body {
   width: 100%;
   background: white;
   width: 70px;
-  border-radius: 10px;
+  border-radius: 15px;
   left: 50%;
   transform: translate(-50%, 0%);
+  padding: 5px 0px;
+}
+.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  border-radius: 50%;
 }
