@@ -60,6 +60,15 @@ body {
   font-variant: initial;
   line-height: 1;
 }
-/* .slick-list-photo {
-  z-index: -1;
-} */
+.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  background: white;
+  width: 70px;
+  border-radius: 10px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
