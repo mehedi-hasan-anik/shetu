@@ -1,8 +1,6 @@
 import React from "react";
 import "./SlickList.css";
-import SlickSlidePhoto3 from "../Image/slider/2.jpg";
-import SlickSlidePhoto1 from "../Image/slider/3.jpg";
-import SlickSlidePhoto2 from "../Image/slider/4.jpg";
+import slickData from "../../Data/slickData.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import "swiper/components/navigation/navigation.min.css";
@@ -17,20 +15,6 @@ import SwiperCore, {
 SwiperCore.use([Navigation, Pagination, Mousewheel, Keyboard, Autoplay]);
 
 const SlickList = () => {
-  const Slicks = [
-    {
-      id: "1",
-      img: SlickSlidePhoto2,
-    },
-    {
-      id: "2",
-      img: SlickSlidePhoto1,
-    },
-    {
-      id: "3",
-      img: SlickSlidePhoto3,
-    },
-  ];
   return (
     <div className="slick-list">
       <Swiper
@@ -42,10 +26,10 @@ const SlickList = () => {
         keyboard={true}
         className="mySwiper"
       >
-        {Slicks.map((slickphoto) => (
-          <SwiperSlide>
+        {slickData.map((slickphoto) => (
+          <SwiperSlide key={slickphoto.id}>
             <div className="slick-list-photo">
-              <img src={slickphoto.img} alt="" />
+              <img src={slickphoto.image} alt="" />
             </div>
           </SwiperSlide>
         ))}
