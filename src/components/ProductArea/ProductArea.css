@@ -79,7 +79,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
-.myslider{
+.myslider {
   background: white;
 }
 .hover_content .nav li {
@@ -146,12 +146,9 @@ body {
   display: block;
 }
 
-.myslider .swiper-container-pointer-events {
-  padding-top: 3.5rem;
-}
 .myslider .swiper-button-next,
 .myslider .swiper-button-prev {
-  top: 10px;
+  top: 28px;
 }
 .myslider .swiper-button-prev {
   right: 30px;
@@ -195,4 +192,7 @@ body {
 .photo-area img {
   width: 100%;
   height: 100%;
+}
+.myslider .swiper-container-pointer-events {
+  padding-top: 4.5rem;
 }
