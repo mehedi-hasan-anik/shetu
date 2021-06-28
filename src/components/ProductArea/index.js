@@ -1,4 +1,4 @@
-import product from "../../Data/MobileData.json";
+import product from "../../data/MobileData.json";
 import { Link } from "react-router-dom";
 import "./ProductArea.css";
 import React, { useEffect, useRef, useState } from "react";

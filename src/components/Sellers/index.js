@@ -1,4 +1,4 @@
-import mobileItem from "../../Data/MobileData.json";
+import mobileItem from "../../data/MobileData.json";
 import { Link } from "react-router-dom";
 import "./Sellers.css";
 import React, { useRef } from "react";

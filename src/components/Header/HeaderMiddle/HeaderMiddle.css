@@ -80,7 +80,7 @@ select {
   height: 46px;
 }
 .lnr-magnifier:before {
-  content: "\e86f";
+  content: "/e86f";
 }
 .main-header .middleBar .btn {
   border-bottom-right-radius: 5px;
@@ -365,7 +365,7 @@ select {
   color: white;
 }
 .dropdown-toggle::after {
-  display: none;
+  /* display: none; */
 }
 .searchBtn:hover {
   color: white;

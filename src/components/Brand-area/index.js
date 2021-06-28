@@ -1,6 +1,6 @@
 import "./Brand.css";
 import React, { useRef } from "react";
-import brandData from "../../Data/brandData.json";
+import brandData from "../../data/brandData.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";

@@ -3,7 +3,7 @@ import "./HeaderBottom.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import navigationData from "../../../Data/navigaationData.json";
+import navigationData from "../../../data/navigaationData.json";
 
 const HeaderBottom = () => {
   return (

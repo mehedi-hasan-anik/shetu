@@ -1,6 +1,6 @@
 import React from "react";
 import "./SlickList.css";
-import slickData from "../../Data/slickData.json";
+import slickData from "../../data/slickData.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import "swiper/components/navigation/navigation.min.css";

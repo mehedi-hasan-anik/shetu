@@ -1,0 +1,122 @@
+[
+    {
+       "id":1,
+       "name":"Televisions",
+       "value":"television"
+    },
+    {
+       "id":2,
+       "name":"Home Theater &amp; Audio",
+       "value":"home-theater-audio"
+    },
+    {
+       "id":3,
+       "name":"headphones",
+       "value":"Headphones"
+    },
+    {
+       "id":4,
+       "name":"Digital Cameras",
+       "value":"digital-cameras"
+    },
+    {
+       "id":5,
+       "name":"Cells &amp; Tablets",
+       "value":"cells-tablets"
+    },
+    {
+       "id":6,
+       "name":"Smartwatches",
+       "value":"smartwatches"
+    },
+    {
+       "id":7,
+       "name":"Games &amp; Consoles",
+       "value":"games-consoles"
+    },
+    {
+       "id":8,
+       "name":"Printer",
+       "value":"printer"
+    },
+    {
+       "id":9,
+       "name":"TV &amp; Video",
+       "value":"tv-video"
+    },
+    {
+       "id":10,
+       "name":"Home Entertainment",
+       "value":"home-entertainment"
+    },
+    {
+       "id":11,
+       "name":"TVs",
+       "value":"tvs"
+    },
+    {
+       "id":12,
+       "name":"Speakers",
+       "value":"speakers"
+    },
+    {
+       "id":13,
+       "name":"Computers &amp; Laptops",
+       "value":"computers-laptops"
+    },
+    {
+       "id":14,
+       "name":"Laptops",
+       "value":"laptops"
+    },
+    {
+       "id":15,
+       "name":"Ultrabooks",
+       "value":"ultrabooks"
+    },
+    {
+       "id":16,
+       "name":"Notebooks",
+       "value":"notebooks"
+    },
+    {
+       "id":17,
+       "name":"Desktop PCs",
+       "value":"desktop-pcs"
+    },
+    {
+       "id":18,
+       "name":"Mac Computers",
+       "value":"mac-computers"
+    },
+    {
+       "id":19,
+       "name":"All in One PC",
+       "value":"all-in-one-pc"
+    },
+    {
+       "id":20,
+       "name":"Audio &amp; Music",
+       "value":"audio-music"
+    },
+    {
+       "id":21,
+       "name":"PC Components",
+       "value":"pc-components"
+    },
+    {
+       "id":22,
+       "name":"Speaker Systems",
+       "value":"speaker-systems"
+    },
+    {
+       "id":23,
+       "name":"Speaker Systems",
+       "value":"speaker-systems-headphones"
+    },
+    {
+       "id":24,
+       "name":"Virtual Reality",
+       "value":"virtual-reality"
+    }
+ ]

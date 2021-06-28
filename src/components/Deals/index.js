@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Deals.css";
-import product from "../../Data/MobileData.json";
+import product from "../../data/MobileData.json";
 import Star from "../Star";
 
 const Deals = () => {
